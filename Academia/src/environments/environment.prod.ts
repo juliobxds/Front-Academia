@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  apiJ: 'https://localhost:7097/',
 };

@@ -4,6 +4,7 @@ export interface funcionario {
   nome: string,
   email: string,
   celular: string,
-  criadoEm: Date,
-  modificadoEm: Date
+  criadoEm?: Date,
+  modificadoEm?: Date
+  endereco: [{  id?: number, logradouro: string, rua: string, cep: string, cidade: string, estado: string, ativo?: string,}]
 }

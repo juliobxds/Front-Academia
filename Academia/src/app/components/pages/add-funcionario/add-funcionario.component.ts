@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./add-funcionario.component.css']
 })
 export class AddFuncionarioComponent implements OnInit {
+  btnText = "Adicionar";
 
   constructor() { }
 

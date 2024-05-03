@@ -10,6 +10,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { AboutprojectComponent } from './components/pages/aboutproject/aboutproject.component';
+import { AddFuncionarioComponent } from './components/pages/add-funcionario/add-funcionario.component';
 
 
 
@@ -21,6 +22,7 @@ import { AboutprojectComponent } from './components/pages/aboutproject/aboutproj
     FooterComponent,
     HomeComponent,
     AboutprojectComponent,
+    AddFuncionarioComponent,
   ],
   imports: [
     BrowserModule,
